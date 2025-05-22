@@ -1,0 +1,17 @@
+{
+    "posts": [
+        {
+            "id":"next.js15-udemy",
+            "title": "next.js-15をudemyで学ぶ",
+            "content": "shincodeでの教材でnext.jsを学んでいます",
+            "createAt": "2025/5/20"
+        },
+        {
+            "id":"json-sever",
+    "title": "JSONサーバー",
+    "content": "pages ディレクトリではページのルーティングはファイル名によって決まっていました。例えば pages/about.js というファイルは /about というパスに対応します",
+    "createAt": "2025/5/20"
+        }
+
+    ]
+}
