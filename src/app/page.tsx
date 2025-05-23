@@ -1,11 +1,34 @@
 import React from "react";
 import ArticleList from "./components/ArticleList";
+import { getAllArticles } from "@/blogAPI";
+import { Article } from "@/types";
 
-export default function Home() {
+export const dynamic = 'force-dynamic';
+
+export default async function Home() {
+  let articles: Article[] = [];
+  
+  try {
+    const res = await getAllArticles();
+    const data = await res.json();
+    
+    if (res.ok && Array.isArray(data)) {
+      articles = data;
+    } else {
+      console.error('記事の取得に失敗しました。ダミーデータを表示します。');
+      // エラー時は空の配列を設定（ArticleListで「記事がありません」と表示）
+      articles = [];
+    }
+  } catch (error) {
+    console.error('記事の取得中にエラーが発生しました。ダミーデータを表示します。:', error);
+    // エラー時は空の配列を設定（ArticleListで「記事がありません」と表示）
+    articles = [];
+  }
+
   return (
     <div className="md:flex">
       <section className="w-full md:w-2/3 flex-col items-center px-3">
-        <ArticleList />
+        <ArticleList articles={articles} />
       </section>
 
       <aside className="w-full md:w-1/3 flex flex-col items-center px-3 md:pl-6">

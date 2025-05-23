@@ -18,14 +18,14 @@ const Header = ()=>{
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                    className: "text-2xl font-extrabold",
+                    className: "text-2xl font-extrabold text-white",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                         href: "/",
                         children: "Next.js15 Blog"
                     }, void 0, false, {
                         fileName: "[project]/src/app/Header.tsx",
                         lineNumber: 9,
-                        columnNumber: 13
+                        columnNumber: 15
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/Header.tsx",
@@ -46,17 +46,17 @@ const Header = ()=>{
                         children: "記事を書く"
                     }, void 0, false, {
                         fileName: "[project]/src/app/Header.tsx",
-                        lineNumber: 15,
+                        lineNumber: 14,
                         columnNumber: 17
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/Header.tsx",
-                    lineNumber: 14,
+                    lineNumber: 13,
                     columnNumber: 13
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/Header.tsx",
-                lineNumber: 13,
+                lineNumber: 12,
                 columnNumber: 9
             }, this)
         ]
@@ -85,12 +85,12 @@ const Footer = ()=>{
             children: "@2025 shincode"
         }, void 0, false, {
             fileName: "[project]/src/app/Footer.tsx",
-            lineNumber: 6,
+            lineNumber: 7,
             columnNumber: 9
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/Footer.tsx",
-        lineNumber: 5,
+        lineNumber: 6,
         columnNumber: 5
     }, this);
 };
